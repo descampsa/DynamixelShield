@@ -606,7 +606,6 @@ F 3 "" H 5700 1650 50  0000 C CNN
 	1    5700 1650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6300 2850
 Wire Wire Line
 	2100 5600 1900 5600
 Wire Wire Line
@@ -859,4 +858,8 @@ Wire Wire Line
 	7450 5000 7450 5100
 Wire Wire Line
 	7450 5900 7450 6000
+Text Label 6700 2850 0    60   ~ 0
+ARDUINO_DIRECTION_PORT
+Wire Wire Line
+	6300 2850 6700 2850
 $EndSCHEMATC

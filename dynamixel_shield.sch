@@ -556,7 +556,7 @@ U 1 1 57B7F721
 P 2750 6150
 F 0 "SHIELD1" H 2750 5250 60  0000 C CNN
 F 1 "ARDUINO_SHIELD" H 2750 7275 60  0000 C CNN
-F 2 "arduino:Arduino_shield" H 2950 7600 60  0001 C CNN
+F 2 "arduino:Arduino_shield_dynamixel" H 2950 7600 60  0001 C CNN
 F 3 "" H 2950 7600 60  0000 C CNN
 	1    2750 6150
 	1    0    0    -1  

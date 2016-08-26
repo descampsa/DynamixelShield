@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adrien/project/dynamixel_shield/dynamixel_shield.sch)
-    (date "mer 24 aoû 2016 21:58:38 CEST")
+    (date "ven 26 aoû 2016 11:47:26 CEST")
     (tool "Eeschema 4.0.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -113,7 +113,7 @@
       (tstamp 57B7BA59))
     (comp (ref SHIELD1)
       (value ARDUINO_SHIELD)
-      (footprint arduino:Arduino_shield)
+      (footprint arduino:Arduino_shield_dynamixel)
       (libsource (lib arduino) (part ARDUINO_SHIELD))
       (sheetpath (names /) (tstamps /))
       (tstamp 57B7F721))
@@ -330,8 +330,6 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical 74)
@@ -341,7 +339,9 @@
     (library (logical custom_device)
       (uri /home/adrien/project/dynamixel_shield/custom_device.lib))
     (library (logical dynamixel_shield-cache)
-      (uri /home/adrien/project/dynamixel_shield/dynamixel_shield-cache.lib)))
+      (uri /home/adrien/project/dynamixel_shield/dynamixel_shield-cache.lib))
+    (library (logical device)
+      (uri /usr/local/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name /HW_RXD)
       (node (ref SHIELD1) (pin 0))
