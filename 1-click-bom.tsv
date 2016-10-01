@@ -1,0 +1,20 @@
+References	Qty	Description	Part Number
+Q1	1	MOSFET N-Ch 30V 0.0037 Ohm 80A STripFET VI	STD96N3LLH6
+F1	2	Mâchoires ACS 2AG PC MNT CLIP	01110501Z
+F1_1	1	Fusibles à cartouche  Fuse	5ST 10-R
+F1_2	1	Fusibles à cartouche  	5VT 5 -R
+P1	1	Connecteurs d'alimentation continue Power Jacks	PJ-102AH
+P2	1	Borniers fixes SIDE WIRE ENTRY TB 5.08MM BL	1776493-2
+U1	1	Tampons et circuits d’excitation AHC TTL Compatible LOGIC	74AHCT1G126SE-7
+U2	1	Tampons et circuits d’excitation SINGLE NON INVERTING DRIVER 3-STATE	74AHC1G125SE-7
+C1	1	Condensateurs électrolytiques en aluminium - CMS 25volts 47uF 6.3x5.8 20%	UWT1E470MCL6GS
+R1,R2,R3	3	Résistances à couches épaisses - CMS 0603 10Kohms 5% AEC-Q200	ERJ-3GEYJ103V
+D1	1	DEL standard - CMS Red Thin Profile 155lm	HSMC-C130
+P3	1	Embases et logements de câbles 2X03 POS VERT TIN	826947-3
+P4,P5,P6,P7	4	Embases et logements de câbles 3 CKT 2.5MM R/A HDR	22-05-7035
+P8,P9	2	Embases et logements de câbles 2.5 VERT HDR SPOX 3P shrouded	22-03-5035
+JP1,JP2,JP3	3	Embases et logements de câbles 4P HEADER TIN single row	5-146274-4
+JP4	1	Embases et logements de câbles 03 MODII HDR SRST B/A .100CL	4-103321-5
+JP1_,JP2_,JP3_,JP4_	4	"Embases et logements de câbles SHUNT 15u"" GOLD"	68786-102LF
+SHIELD1	1	Accessoires Adafruit Shield stacking headers for Arduino (R3 Compatible)	
+
