@@ -16,5 +16,5 @@ P8,P9	2	Embases et logements de câbles 2.5 VERT HDR SPOX 3P shrouded	22-03-5035
 JP1,JP2,JP3	3	Embases et logements de câbles 4P HEADER TIN single row	5-146274-4
 JP4	1	Embases et logements de câbles 03 MODII HDR SRST B/A .100CL	4-103321-5
 JP1_,JP2_,JP3_,JP4_	4	"Embases et logements de câbles SHUNT 15u"" GOLD"	68786-102LF
-SHIELD1	1	Accessoires Adafruit Shield stacking headers for Arduino (R3 Compatible)	
+SHIELD1	1	Accessoires Adafruit Shield stacking headers for Arduino (R3 Compatible)	485-85
 
