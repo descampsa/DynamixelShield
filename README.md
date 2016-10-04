@@ -1,5 +1,8 @@
 # Dynamixel shield
 
+![image1](image/IMG_0673.JPG)
+![image2](image/IMG_0681.JPG)
+
 ## What is it?
 
 This is an arduino shield to control dynamixel servo motors from Robotis. AX and MX series (TTL version) are supported. Thanks to their half-duplex serial control protocol, you can chain them and control a lot of motor simultaneously (up to 254 in theory). It is possible to control those motors with an arduino without additionnal hardware, but this board makes it easier and cleaner.
