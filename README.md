@@ -1,7 +1,7 @@
 # Dynamixel shield
 
-![image1](image/IMG_0673.JPG)
-![image2](image/IMG_0681.JPG)
+![image1](image/IMG_0673_THUMB.JPG)
+![image2](image/IMG_0681_THUMB.JPG)
 
 ## What is it?
 
