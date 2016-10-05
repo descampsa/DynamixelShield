@@ -44,7 +44,7 @@ For boards that have multiple hardware uart, you may use any of those ports by c
 Most of the code is platform independent, but it has only been tested with AVR boards. If you want to use another platform and find a bug, open an issue in ardyno repository.
 The shield supports both 5V and 3.3V boards.
 
-I also successfully tested it with the Arduino 101, but be aware that the serial code for this board is currently ... not very well polished (to be nice), so use it at your own risks.
+I also successfully tested it with the Arduino 101, but there are still a few shortcomings in the serial libray of this board, so this is experimental.
 
 ## Great, how do i get one?
 
