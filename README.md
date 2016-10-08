@@ -7,9 +7,6 @@
 
 This is an arduino shield to control dynamixel servo motors from Robotis. AX and MX series (TTL version) are supported. Thanks to their half-duplex serial control protocol, you can chain them and control a lot of motor simultaneously (up to 254 in theory). It is possible to control those motors with an arduino without additionnal hardware, but this board makes it easier and cleaner.
 
-You can use it with my [ardyno](https://github.com/descampsa/ardyno/) library.
-It is compatible with 3.3v and 5v boards, and can be used with hardware or software serial.
-
 ## How to use it?
 
 ### Hello world (aka blink my led)
@@ -50,3 +47,8 @@ I also successfully tested it with the Arduino 101, but there are still a few sh
 
 The good news is that all is open source, the kicad project, gerber file, code, bom, all you need to make your own. Gerber and bom are also available on [kitnic](kitnic.it), where you may order the parts very easily. The bad news is that you can't buy one, i do not sell it for now.
 I have a few unpopulated pcb left, however, so if you are interested, just ask and i will send you one for shipping cost.
+
+
+## Warning
+
+This board is functionnal, but has not yet been tested extensively, especially for high loads. Make sure you know what you are doing if you use it.
