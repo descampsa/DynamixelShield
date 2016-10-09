@@ -1,4 +1,4 @@
-update=dim 21 aoû 2016 21:30:59 CEST
+update=jeu 06 oct 2016 20:32:35 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=74
 LibName31=arduino
 LibName32=custom_device
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
