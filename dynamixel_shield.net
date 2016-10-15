@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adrien/project/dynamixel_shield/dynamixel_shield.sch)
-    (date "sam 15 oct 2016 15:58:40 CEST")
+    (date "sam 15 oct 2016 16:01:33 CEST")
     (tool "Eeschema 4.0.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -173,6 +173,7 @@
       (tstamp 58000E0E))
     (comp (ref R7)
       (value 10K)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58023740)))
@@ -355,8 +356,6 @@
   (libraries
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical 74)
       (uri /home/adrien/project/dynamixel_shield/74.lib))
     (library (logical arduino)
@@ -364,7 +363,9 @@
     (library (logical custom_device)
       (uri /home/adrien/project/dynamixel_shield/custom_device.lib))
     (library (logical dynamixel_shield-cache)
-      (uri /home/adrien/project/dynamixel_shield/dynamixel_shield-cache.lib)))
+      (uri /home/adrien/project/dynamixel_shield/dynamixel_shield-cache.lib))
+    (library (logical conn)
+      (uri /usr/local/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name +3V3)
       (node (ref SHIELD1) (pin 3V3)))
