@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name molex)(type KiCad)(uri "$(KIPRJMOD)/molex.pretty")(options "")(descr ""))
-  (lib (name arduino)(type KiCad)(uri "$(KIPRJMOD)/arduino.pretty")(options "")(descr ""))
-  (lib (name CreativeCommon)(type KiCad)(uri "$(KIPRJMOD)/CreativeCommon.pretty")(options "")(descr ""))
-  (lib (name fuse)(type KiCad)(uri "$(KIPRJMOD)/fuse.pretty")(options "")(descr ""))
+  (lib (name molex)(type Github)(uri https://github.com/descampsa/molex.pretty)(options "")(descr ""))
+  (lib (name arduino)(type Github)(uri https://github.com/descampsa/arduino.pretty)(options "")(descr ""))
+  (lib (name CreativeCommon)(type Github)(uri https://github.com/descampsa/CreativeCommon.pretty)(options "")(descr ""))
+  (lib (name fuse)(type Github)(uri https://github.com/descampsa/fuse.pretty)(options "")(descr ""))
 )
