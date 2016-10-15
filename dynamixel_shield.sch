@@ -1001,7 +1001,7 @@ IOREF
 Wire Wire Line
 	6250 1750 6250 1850
 Wire Wire Line
-	6250 2150 6250 2250
+	6250 2150 6250 2400
 Connection ~ 6250 2250
 Wire Notes Line
 	4900 900  10200 900 
@@ -1015,4 +1015,30 @@ Wire Notes Line
 	10350 5250 4750 5250
 Wire Notes Line
 	4750 5250 4750 750 
+$Comp
+L R R7
+U 1 1 58023740
+P 6250 2550
+F 0 "R7" V 6330 2550 50  0000 C CNN
+F 1 "10K" V 6250 2550 50  0000 C CNN
+F 2 "" V 6180 2550 50  0000 C CNN
+F 3 "" H 6250 2550 50  0000 C CNN
+	1    6250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5802386A
+P 6250 2800
+F 0 "#PWR?" H 6250 2550 50  0001 C CNN
+F 1 "GND" H 6250 2650 50  0000 C CNN
+F 2 "" H 6250 2800 50  0000 C CNN
+F 3 "" H 6250 2800 50  0000 C CNN
+	1    6250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2800 6250 2700
+Text Notes 6450 2150 0    60   ~ 0
+Note : \nsolder R6 for tx direction by default, \nor R7 for rx direction by default
 $EndSCHEMATC
