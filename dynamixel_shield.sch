@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:dynamixel_shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -607,7 +608,7 @@ F 3 "" H 1350 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-dynamixel_shield D1
 U 1 1 57BDD735
 P 1200 3700
 F 0 "D1" H 1200 3800 50  0000 C CNN
